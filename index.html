@@ -1,499 +1,1069 @@
 <!DOCTYPE html>
 <html>
-<head lang="ru">
-    <meta name="google" value="notranslate"/>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <link rel="icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicon_Uz.ico" sizes="16x16 24x24 32x32 48x48 64x64" type="image/x-icon"/>
-        <link rel="shortcut icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicon_Uz.ico" sizes="16x16 24x24 32x32 48x48 64x64" type="image/x-icon"/>
-    
-        <!-- non-retina iPhone pre iOS 7 -->
-        <link rel="apple-touch-icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/apple/57x57.png" sizes="57x57"/>
-        <!-- non-retina iPad pre iOS 7 -->
-        <link rel="apple-touch-icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/apple/72x72.png" sizes="72x72"/>
-        <!-- non-retina iPad iOS 7 -->
-        <link rel="apple-touch-icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/apple/76x76.png" sizes="76x76"/>
-        <!-- retina iPhone pre iOS 7 -->
-        <link rel="apple-touch-icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/apple/114x114.png" sizes="114x114"/>
-        <!-- retina iPhone iOS 7 -->
-        <link rel="apple-touch-icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/apple/120x120.png" sizes="120x120"/>
-        <!-- retina iPad pre iOS 7 -->
-        <link rel="apple-touch-icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/apple/144x144.png" sizes="144x144"/>
-        <!-- retina iPad iOS 7 -->
-        <link rel="apple-touch-icon" href="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/apple/152x152.png" sizes="152x152"/>
-    
-        <!-- Windows 8 tile -->
-        <meta name="msapplication-TileImage" content="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/microsoft/144x144.png"/>
-        <meta name="msapplication-TileColor" content="#FFFFFF"/>
-        <meta name="application-name" content="eMaktab"/>
-    
-        <!-- IE11 tiles -->
-        <meta name="msapplication-square70x70logo" content="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/microsoft/70x70.png"/>
-        <meta name="msapplication-square150x150logo" content="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/microsoft/150x150.png"/>
-        <meta name="msapplication-wide310x150logo" content="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/microsoft/310x150.png"/>
-        <meta name="msapplication-square310x310logo" content="https://static.uz.stg.dnevnik.ru/img/icons/favicons_Uz/microsoft/310x310.png.png" />
-    
-    
+  <head>
+    <meta charset="UTF-8">
+    <title>Күнделік | V2 </title>
 
-    <title>eMaktab</title>
-
-    
-
-            <link rel="stylesheet" href="https://static.uz.stg.dnevnik.ru/assets/styles/main.min.ca6a1daa.css?v=ca6a1daa" media="all" type="text/css" />
-        <link rel="stylesheet" href="https://static.uz.stg.dnevnik.ru/styles/main/common.css?v=143157b6" media="all" type="text/css"/>
-        <link rel="stylesheet" href="https://static.uz.stg.dnevnik.ru/blocks/blocks.css?v=1dfb2e84" media="all" type="text/css" />
-    <link rel="stylesheet" href="https://static.uz.stg.dnevnik.ru/client/notifications.css?v=1f469960" type="text/css" />
-
-    
-<script type="text/javascript">var dnevnik = {"urls":{"domain":"uz.stg.dnevnik.ru","taskStateUrl":"https://uz.stg.dnevnik.ru/TaskStateHandler","moderate":null,"whiteList":["2gis.ru","adfox.ru","aliexpress.com","apple.com","avito.ru","booking.com","csdnevnik.ru","dnevnik.ru","dnevnik.ru","facebook.com","fotostrana.ru","foxford.ru","gismeteo.ru","globallab.org","google.com","google.ru","gosuslugi.ru","hh.ru","instagram.com","instagram.com","kinopoisk.ru","lego.com","lenta.ru","letovo.ru","livejournal.com","magnit.ru","magnit-info.ru","magnitznaniy.ru","mail.ru","microsoft.com","mosreg.ru","mosregtest.ru","office.com","office365.com","ok.ru","onenote.com","pikabu.ru","rambler.ru","rbc.ru","research.net","ria.ru","sberbank.ru","sharepoint.com","surveymonkey.com","surveymonkey.ru","twitch.tv","twitter.com","vk.com","wikipedia.org","yadi.sk","yaklass.ru","yandex.ru","youtu.be","youtube.com","kundalik.com","imumk.ru"],"userCounters":"https://uz.stg.dnevnik.ru/counters","emailSettings":"https://uz.stg.dnevnik.ru/v2/user/settings?view=email","smilesSpriteUrl":"https://static.uz.stg.dnevnik.ru/images/sprites/emojione.sprites.svg","tinyMceBaseUrl":"https://static.uz.stg.dnevnik.ru/assets/scripts/vendors/tinymce","gaAutoLinkUrls":null,"adblockDummyUrl":""},"settings":{"yandexMetrikaIds":["71764096"],"yandexMetrikaСlickmapEnabled":true,"enableAdFoxZeroPixel":true,"yandexMetrikaId":"71764096","environmentPrefix":"Uz","yandexMetrikaWebvisorEnabled":false},"fileUploadSettings":{"stateUrl":"https://content.uz.stg.dnevnik.ru/gettaskstatus","resultUrl":"https://content.uz.stg.dnevnik.ru/getresult","deleteFileUrl":"https://content.uz.stg.dnevnik.ru/delete","deleteFolderUrl":"https://content.uz.stg.dnevnik.ru/deletefolder","defaultFileSizeLimit":"2147483648"},"user":null,"auth":{"isAuthenticated":false,"updateInterval":600000,"loginUrl":"https://login.uz.stg.dnevnik.ru/auth","masterLoginUrl":null},"visitParams":{"__RedesignAbGroup2":"groupA"},"localizationSchoolType":null,"contextRegionUrl":""};</script>
-
-            <script type="text/javascript" src="https://static.uz.stg.dnevnik.ru/assets/scripts/modules/redesign.min.100721f5.js?v=100721f5"></script>
-    <script type="text/javascript" src="https://static.uz.stg.dnevnik.ru/assets/scripts/vendors/requirejs/require-2.3.7.js?v=084c85b2"></script>
-    <script type="text/javascript">
-        require.config({
-            baseUrl: "https://static.uz.stg.dnevnik.ru/assets/scripts/modules",
-            urlArgs: "v=95bd5188",
-        });
-    </script>
-            <script type="text/javascript" src="https://static.uz.stg.dnevnik.ru/assets/scripts/modules/main-redesign.min.bbd7fce2.js?v=bbd7fce2"></script>
-    <script type="text/javascript" src="https://static.uz.stg.dnevnik.ru/blocks/blocks.js?v=69fe4dc3"></script>
-    <script type="text/javascript" src="https://static.uz.stg.dnevnik.ru/javascripts/local/ru.js?v=0320e479"></script>
-
-</head>
-<body class="">
-    <script>
-        window.environmentPrefix = "uz";
-        window.environmentPrefix = "";
-    </script>
-
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="CdsUufG6R5tmWA9xII2VI_Z_n2JrLTcDV0bEL6_ewDGkO2Frkza72DjvKEOyYGJhOE9uIw4dX2bfwfH8Jb6IGA" />
     
 
 
-<header class="header-anon" id="header-anon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=982afdf5-63cf-462b-a206-937e7a0afef3&lang=en_US" type="text/javascript"></script>
+    <link rel="stylesheet" href="/assets/v2/application-ddf27ad1404c9d62a7d69106de3bdabaf6b36c5f4a59ba3e8cae7a4807176e8f.css" media="all" data-turbolinks-track="reload" />
+    <script src="/packs/js/application-8c239487fd8d91bb56df.js" media="all" data-turbolinks-track="reload"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="662CTwlwtDlcclnqbdtcWbLuXBKI_4LCVR98EBkT4d0" />
+    <meta name="yandex-verification" content="55083c89baef38b5" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portal.kundelik.kz" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="Күнделік"/>
+    <meta property="og:description" content="" />
+    <meta property="yandex_recommendations_title" content=""/>
+    <meta property="yandex_recommendations_image" content=""/>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    <div class="colored-line colored-line_uz">
-        <div class="colored-line__item colored-line__item_blue"></div>
-        <div class="colored-line__item colored-line__item_green"></div>
-        <div class="colored-line__item colored-line__item_yellow"></div>
-        <div class="colored-line__item colored-line__item_orange"></div>
-        <div class="colored-line__item colored-line__item_violet"></div>
-    </div>
-
-    <div class="header-anon__content">
-
-        <div class="header-anon__logotype" id="logo">
-            <a href="https://emaktabru.netlify.app">
-                <img src="https://static.uz.stg.dnevnik.ru/img/logotypes/uzlogotype.png" alt="eMaktab"/>
-            </a>
+  ym(53684116, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/53684116" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg" data-controller="navbar">
+  <div class="container">
+    <a class="navbar-brand d-lg-block d-none" href="/ru/v2">
+      <img src="/assets/v2/logo-b295f6fb7681da272195854b70828184525e402397f01890e6d257c6cef8ffbe.svg" />
+</a>    <div class="d-flex w-100 justify-content-between align-items-center d-block d-lg-none">
+      <div class="d-flex">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/ru/v2">
+          <img src="/assets/v2/logo-b295f6fb7681da272195854b70828184525e402397f01890e6d257c6cef8ffbe.svg" />
+</a>      </div>
+      <a class="nav-actions-button login" href="https://login.kundelik.kz/login?locale=kk-kz">
+        Войти в Kundelik.kz
+        <img src="/assets/v2/navbar/login-871ea73dca8bfd3984a6a45c944f5f11fcbe124b8b95a287f10906a22977a495.svg" />
+</a>    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse-nav-links navbar-nav d-none d-lg-block">
+        <div class="collapse-nav-links-row">
+          <a class="collapse-nav-links-row-link grey" href="/ru/v2">Главная</a>
+          <a class="collapse-nav-links-row-link grey" href="/ru/v2#about">О компании</a>
+          <a class="collapse-nav-links-row-link grey" target="_blank" href="https://kundelik.kz/forpartners?locale=ru-ru">Партнёрам</a>
+          <a class="collapse-nav-links-row-link grey" href="/ru/v2/mon_news">Новости МП РК</a>
         </div>
-
-        <div class="header-anon__menu-wrapper">
-                <div class="header-anon__menu">
-                    
-<nav class="menu">
-    <ul class="menu__layout">
-            <li class="menu__layout_unit">
-                <a class="menu__item menu__item_border
-                   
-                   menu__item_no-left-padding
-                   "
-                   href=https://emaktabru.netlify.app/about>&#x41E; &#x43A;&#x43E;&#x43C;&#x43F;&#x430;&#x43D;&#x438;&#x438;</a>
-            </li>
-            <li class="menu__layout_unit">
-                <a class="menu__item menu__item_border
-                   
-                   
-                   "
-                   href=https://emaktabru.netlify.app/features>&#x412;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x438;</a>
-            </li>
-            <li class="menu__layout_unit">
-                <a class="menu__item menu__item_border
-                   
-                   
-                   "
-                   href=https://emaktabru.netlify.app/forpartners>&#x41F;&#x430;&#x440;&#x442;&#x43D;&#x451;&#x440;&#x430;&#x43C;</a>
-            </li>
-            <li class="menu__layout_unit">
-                <a class="menu__item menu__item_border
-                   
-                   
-                   menu__item_noborder menu__item_no-right-padding"
-                   href=https://emaktabru.netlify.app/support>&#x41F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x430;</a>
-            </li>
-    </ul>
+        <div class="collapse-nav-links-row">
+          <a class="collapse-nav-links-row-link" target="_blank" href="https://kundelik.kz/contacts?locale=ru-ru">Контакты</a>
+          <a class="collapse-nav-links-row-link" href="/ru/v2/video-lessons">Видеоуроки</a>
+          <a class="collapse-nav-links-row-link" href="https://bonus.kundelik.kz">K.Bonus</a>
+          <a class="collapse-nav-links-row-link" target="_blank" href="https://lessons.kundelik.kz/">Онлайн-уроки</a>
+        </div>
+      </div>
+      <div class="collapse-nav-links-mobile navbar-nav d-flex d-lg-none">
+          <a class="collapse-nav-links-mobile-link" href="/ru/v2">Главная</a>
+          <a class="collapse-nav-links-mobile-link" href="/ru/v2#about">О компании</a>
+          <a class="collapse-nav-links-mobile-link" target="_blank" href="https://kundelik.kz/forpartners?locale=ru-ru">Партнёрам</a>
+          <a class="collapse-nav-links-mobile-link" href="/ru/v2/mon_news">Новости МП РК</a>
+          <a class="collapse-nav-links-mobile-link" target="_blank" href="https://kundelik.kz/contacts?locale=ru-ru">Контакты</a>
+          <a class="collapse-nav-links-mobile-link" href="/ru/v2/video-lessons">Видеоуроки</a>
+          <a class="collapse-nav-links-mobile-link" target="_blank" href="https://bonus.kundelik.kz">K.Bonus</a>
+          <a class="collapse-nav-links-mobile-link" target="_blank" href="https://lessons.kundelik.kz/">Онлайн-уроки</a>
+      </div>
+      <div class="nav-actions">
+        <a class="nav-actions-locale" href="/v2">
+          <img src="/assets/v2/navbar/locale-b79d69631d71a59c9912726fa9a7670cf9d3af94f71ff6285b83cc3b4dda6dd6.svg" /> KZ
+</a>        <a class="nav-actions-button search" href="/ru/v2/search">
+          Поиск
+          <img src="/assets/v2/navbar/search-5db88d3da9279461160ad2e6648c6872f254bdc0dd135e3f0159bd8c366ea16a.svg" />
+</a>        <a class="nav-actions-button login d-none d-lg-block" href="https://login.kundelik.kz/login?locale=kk-kz">
+          Войти в Kundelik.kz
+          <img src="/assets/v2/navbar/login-871ea73dca8bfd3984a6a45c944f5f11fcbe124b8b95a287f10906a22977a495.svg" />
+</a>    </div>
+  </div>
 </nav>
-            </div>
-            <div class="header-anon__buttons" id="anon-buttons">
-                    <div class="header-anon__localization-button" id="localization-button">
-                        
-<div class="header-localization-select">
-    <div class="header-localization-select__info">
-        <div class="header-localization-select__info_row header-localization-select__info_row-content">&#x420;&#x443;&#x441;</div>
-        <div class="header-localization-select__info_row header-localization-select__tumbler"></div>
+
+  <div class="content">
+      
+      <section class="main-slider" id="main-slider">
+  <div class="main-slider-glide container" data-controller="main-slider">
+    <div class="glide__track" data-glide-el="track">
+      <div class="glide__slides">
+          <div class="glide__slide main-slide-template" style="background: #00816E;">
+  <div class="main-slide-template-content">
+    <div class="main-slide-template-content-title" style="color: white">
+      Бонусы за оценки
     </div>
-    
-    
-
-<div class="dropdown-container dropdown-container_font-weight-bold dropdown-container_left-position-0 dropdown-container_no-specific-last-child ">
-
-<a href="https://emaktabru.netlify.app/api/localization/change?newCulture=ru-RU&amp;currentUrl=https%3a%2f%2fuz.stg.dnevnik.ru%2f" title="&#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;" class="link link_dropdown-container-link link_dropdown-container-link_selected link_ " >
-    &#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;
-    
-</a>
-<a href="https://emaktabru.netlify.app/api/localization/change?newCulture=uz-Latn-UZ&amp;currentUrl=https%3a%2f%2fuz.stg.dnevnik.ru%2f" title="O&#x27;zbekcha" class="link link_dropdown-container-link link_ link_ " >
-    O&#x27;zbekcha
-    
-</a></div><script>require(['DropdownContainer/DropdownContainer'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('\x7b\x22tumblerClass\x22\x3a\x22header-localization-select\x22,\x22activationClasses\x22\x3a\x5b\x22header-localization-select__info\x22,\x22dropdown-container\x22\x5d\x7d')); } });</script>
+    <div class="main-slide-template-content-description" style="color: white">
+      Программа стартовала. Учись на отлично и получай бонусы! Участвуй в розыгрыше 100,000 бонусов ежемесячно.
+    </div>
+    <a target="_blank" class="main-slide-template-content-action" href="/kz/v2/main_slide/14">Перейти</a>
+  </div>
+  <div class="main-slide-template-background-image">
+    <img class="main-slide-template-background-image-main" src="/assets/v2/main-slides/halyk-d108eeff5a4388f2d40302f6ad9343037afe473f6506943af05f6273652f1945.png" />
+  </div>
 </div>
-                    </div>
-                <div class="header-anon__button">
-                    
-<a href="https://emaktabru.netlify.app/login" title="&#x412;&#x43E;&#x439;&#x442;&#x438;" class="button button_blue button_padding-20    " onclick="" 
-   style="cursor: pointer"
-   data-category="" data-action="" data-target="">
-    &#x412;&#x43E;&#x439;&#x442;&#x438;
-</a>
-                </div>
-                    <div class="header-anon__button">
-                        
-<a href="https://emaktabru.netlify.app/join/role" title="&#x41F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x41E;&#x41E;" class="button button_green button_padding-20 button_margin-left-20    " onclick="" 
-   style="cursor: pointer"
-   data-category="" data-action="" data-target="">
-    &#x41F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x41E;&#x41E;
-</a>
-                    </div>
 
-            </div>
-        </div>
+          <div class="glide__slide main-slide-kundelik" style="background:#3788F5">
+  <div class="main-slide-kundelik-content">
+    <div class="main-slide-kundelik-content-image">
+      <img src="/assets/v2/main-slides/kundelik/logo-9ab72c0a6607f0cb5c2716af2bd0a3d7c575f3af3b4bf9822ee8b4f712d7c996.png" />
     </div>
-</header>
-<script type="text/javascript">
-
-    var button = document.getElementById('localization-button');
-    moveLocalizationButton();
-    window.addEventListener('resize', function(event) {
-        moveLocalizationButton();
-    }, true);
-    
-    function moveLocalizationButton() {
-        if (window.innerWidth > 1200) {
-            jQuery("#localization-button").detach().prependTo('#anon-buttons');
-            button.classList.remove("localization-mobile");
-        }
-        else {
-            jQuery("#localization-button").detach().appendTo('#logo');
-            button.classList.add("localization-mobile");
-        }
-    }
-</script>
-
-
-<div class="main main_no-padding ">
-    
-
-<div class="slider">
-    <div class="slider__layout">
-        <div class="slider__line">
-            <div class="slider__item slider__item_teachers slider__item_teachers_uz slider__item_hidden">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-24 col-xs-24">
-                            <div class="slider__item__content">
-                                <div class="slider__item__content__image slider__item__content__image_teacher slider__item__content__image_teacher_uz">
-                                    <img class="slider__item__content__image__teacher slider__item__content__image__teacher_uz" src="https://static.uz.stg.dnevnik.ru/img/slider/uz/teachers.png" alt="Преподавателям" />
-                                </div>
-                                <div class="slider__item__content__text">
-                                    <div class="slider__item__content__text_title">
-                                        <div class="slider__item__content__text_title-name">Преподавателям</div>
-                                    </div>
-                                    <div class="slider__item__content__text_description">
-    Используйте современную образовательную платформу, чтобы автоматизировать рабочий процесс в школе и сэкономить более 20 рабочих часов в четверть.<br /><br /><br /><br /></div>
-                                </div>
-                                <div class="slider__item__content__button slider__item__content__button_uz">
-                                    
-<a href="features#/teachers" title="&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435;" class="button button_grey-rounded    " onclick="" 
-   style="cursor: pointer"
-   data-category="" data-action="" data-target="">
-    &#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435;
-</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider__item slider__item_parents slider__item_parents_uz slider__item_hidden">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-24 col-xs-24">
-                            <div class="slider__item__content">
-                                <div class="slider__item__content__image slider__item__content__image_parents slider__item__content__image_parents_uz">
-                                    <img class="slider__item__content__image__parents slider__item__content__image__parents_uz" src="https://static.uz.stg.dnevnik.ru/img/slider/uz/parents.png" alt="Родителям" />
-                                </div>
-                                <div class="slider__item__content__text">
-                                    <div class="slider__item__content__text_title">
-                                        <div class="slider__item__content__text_title-name">
-                                            Родителям
-                                        </div>
-                                    </div>
-                                    <div class="slider__item__content__text_description">
-    Оформите подписку и следите<br />
-    за школьными успехами своих детей,<br />
-    где угодно и когда удобно.<br /><br /><br /></div>
-                                </div>
-                                <div class="slider__item__content__button slider__item__content__button_uz">
-                                    
-<a href="features#/parents" title="&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435;" class="button button_grey-rounded    " onclick="" 
-   style="cursor: pointer"
-   data-category="" data-action="" data-target="">
-    &#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435;
-</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider__item slider__item_childrens slider__item_childrens_uz slider__item_hidden">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-24 col-xs-24">
-                            <div class="slider__item__content">
-                                <div class="slider__item__content__image slider__item__content__image_childrens slider__item__content__image_childrens_uz">
-                                    <img class="slider__item__content__image__childrens slider__item__content__image__childrens_uz" src="https://static.uz.stg.dnevnik.ru/img/slider/uz/students.png" alt="Учащимся" />
-                                </div>
-                                <div class="slider__item__content__text">
-                                    <div class="slider__item__content__text_title">
-                                        <div class="slider__item__content__text_title-name">
-                                            Учащимся
-                                        </div>
-                                    </div>
-                                    <div class="slider__item__content__text_description">
-    eMaktab поможет быть успешным в школе.<br />
-    Оценки, расписание, домашние, творческие задания —<br />
-    всегда под рукой!<br /><br /><br /></div>
-                                </div>
-                                <div class="slider__item__content__button slider__item__content__button_uz">
-                                    
-<a href="features#/students" title="&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435;" class="button button_grey-rounded    " onclick="" 
-   style="cursor: pointer"
-   data-category="" data-action="" data-target="">
-    &#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435;
-</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <div class="slider__item slider__item_officials slider__item_officials_uz slider__item_hidden">
-                    <div class=" container">
-                    <div class="row">
-                        <div class="col-md-24 col-xs-24">
-                            <div class="slider__item__content">
-                                <div class="slider__item__content__image slider__item__content__image_officials slider__item__content__image_officials_uz">
-                                    <img class="slider__item__content__image__officials" src="https://static.uz.stg.dnevnik.ru/img/slider/uz/officials.png" alt="Госорганам" />
-                                </div>
-                                <div class="slider__item__content__text">
-                                        <div class="slider__item__content__text_title">
-                                            <div class="slider__item__content__text_title-name">
-                                                Госорганам
-                                            </div>
-                                        </div>
-                                    <div class="slider__item__content__text_description">
-    Для органов управления образованием eMaktab —<br />
-    инструмент онлайн-мониторинга за деятельностью<br />
-    образовательных учреждений. Статистика и отчеты<br /> 
-    доступны в режиме реального времени 24/7.<br /><br /></div>
-                                    </div>
-                                    <div class="slider__item__content__button slider__item__content__button_uz">
-                                        
-<a href="features#/governments" title="&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435;" class="button button_grey-rounded    " onclick="" 
-   style="cursor: pointer"
-   data-category="" data-action="" data-target="">
-    &#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435;
-</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
+    <div class="main-slide-kundelik-content-description">
+      ТОО «Kүнделік (Kundelik)» – казахстанская ИТ-компания, разработчик единой электронной образовательной среды для учителей, учеников, родителей, администрации образовательных организаций, а также представителей органов Управления образованием.
     </div>
-    <div class="slider__arrows hidden-xs hidden-sm">
-        <div class="slider__arrows__item slider__arrows__item_prev"></div>
-        <div class="slider__arrows__item slider__arrows__item_next"></div>
-    </div>
-    <div class="slider__bar"></div>
-    <div class="slider__icons">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4">
-                    <div class="slider__icons__item">
-
-                      
-                        <div class="slider__icons__item__image slider__icons__item__image_teacher slider__icons__item__image_teacher_uz slider__icons__item__image_active "></div>
-                        <div class="slider__icons__item__label">Преподавателям</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-4">
-                    <div class="slider__icons__item">
-                 
-                        <div class="slider__icons__item__image slider__icons__item__image_parents slider__icons__item__image_parents_uz "></div>
-                        <div class="slider__icons__item__label">Родителям</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-4">
-                    <div class="slider__icons__item">
-                      
-                        <div class="slider__icons__item__image slider__icons__item__image_childrens slider__icons__item__image_childrens_uz "></div>
-                        <div class="slider__icons__item__label">Учащимся</div>
-                    </div>
-                </div>
-                    <div class="col-md-4 col-xs-4">
-                        <div class="slider__icons__item">
-                            <div class="slider__icons__item__image slider__icons__item__image_officials slider__icons__item__image_officials_uz "></div>
-                            <div class="slider__icons__item__label">Госорганам</div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-    </div>
-<script>require(['Slider/Slider'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('null')); } });</script>
-
-</div> 
-
-
-<footer class="footer">
-    <div class="footer__menu">
-        <div>
-            <div class="footer__menu__links">
-                    <div class="footer__column_25">
-                            <div class="footer__menu__links__title">&#x41E; &#x43A;&#x43E;&#x43C;&#x43F;&#x430;&#x43D;&#x438;&#x438;</div>
-                            <ul class="footer__menu__links__layout">
-                                    <li class="footer__menu__links__layout_item">
-                                        <a href="https://uz.stg.dnevnik.ru/about" class="footer__menu__links__item">&#x41E; &#x43D;&#x430;&#x441;</a>
-                                    </li>
-                                    <li class="footer__menu__links__layout_item">
-                                        <a href="https://uz.stg.dnevnik.ru/news" class="footer__menu__links__item">&#x41D;&#x43E;&#x432;&#x43E;&#x441;&#x442;&#x438;</a>
-                                    </li>
-                                    <li class="footer__menu__links__layout_item">
-                                        <a href="https://uz.stg.dnevnik.ru/contacts" class="footer__menu__links__item">&#x41A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x44B;</a>
-                                    </li>
-                            </ul>
-                    </div>
-                    <div class="footer__column_25">
-                            <div class="footer__menu__links__title">&#x412;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x438;</div>
-                            <ul class="footer__menu__links__layout">
-                                    <li class="footer__menu__links__layout_item">
-                                        <a href="https://uz.stg.dnevnik.ru/features#/teachers" class="footer__menu__links__item">&#x41F;&#x440;&#x435;&#x43F;&#x43E;&#x434;&#x430;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;&#x43C;</a>
-                                    </li>
-                                    <li class="footer__menu__links__layout_item">
-                                        <a href="https://uz.stg.dnevnik.ru/features#/parents" class="footer__menu__links__item">&#x420;&#x43E;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x44F;&#x43C;</a>
-                                    </li>
-                                    <li class="footer__menu__links__layout_item">
-                                        <a href="https://uz.stg.dnevnik.ru/features#/students" class="footer__menu__links__item">&#x423;&#x447;&#x430;&#x449;&#x438;&#x43C;&#x441;&#x44F;</a>
-                                    </li>
-                                    <li class="footer__menu__links__layout_item">
-                                        <a href="https://uz.stg.dnevnik.ru/features#/governments" class="footer__menu__links__item">&#x413;&#x43E;&#x441;&#x43E;&#x440;&#x433;&#x430;&#x43D;&#x430;&#x43C;</a>
-                                    </li>
-                            </ul>
-                    </div>
-                    <div class="footer__column_25">
-                            <div class="footer__menu__links__title">&#x41F;&#x430;&#x440;&#x442;&#x43D;&#x451;&#x440;&#x430;&#x43C;</div>
-                            <ul class="footer__menu__links__layout">
-                                    <li class="footer__menu__links__layout_item">
-                                        <a href="https://uz.stg.dnevnik.ru/forpartners" class="footer__menu__links__item">&#x41F;&#x430;&#x440;&#x442;&#x43D;&#x451;&#x440;&#x441;&#x43A;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B;</a>
-                                    </li>
-                            </ul>
-                    </div>
-                <div class="footer__column_25">
-                    <div class="footer__menu__links__last-column-wrapper">
-                            <div class="footer__menu__links__title footer__menu__links__title_no-margin-top">
-                                &#x41F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x430;
-                            </div>
-                            <div class="footer__menu__links__support">
-                                    <a href="https://help.emaktab.uz" class="footer__menu__links__support__link">&#x41F;&#x43E;&#x440;&#x442;&#x430;&#x43B; &#x441;&#x43B;&#x443;&#x436;&#x431;&#x44B; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438;</a>
-                            </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div>
-                <div class="footer__menu__buttons">
-                        <div class="footer__column_25">
-                            
-<div class="sociallinks">
-        <a class="sociallinks__button sociallinks__button_facebook " href="https://www.facebook.com/emaktab.uz" target="_blank" title="eMaktab &#x432; Facebook"></a>
-        <a class="sociallinks__button sociallinks__button_instagram " href="https://www.instagram.com/emaktab.uz/" target="_blank" title="eMaktab &#x432; Instagram"></a>
-        <a class="sociallinks__button sociallinks__button_telegram " href="https://t.me/emaktab_uz" target="_blank" title="eMaktab &#x432; Telegram"></a>
-        <a class="sociallinks__button sociallinks__button_youtube " href="https://www.youtube.com/@emaktabuzb" target="_blank" title="eMaktab &#x43D;&#x430; YouTube"></a>
+    <a target="_blank" class="main-slide-template-content-action" href="/kz/v2/main_slide/10">Перейти</a>
+  </div>
+  <div class="main-slide-kundelik-background-image">
+    <img class="main-slide-kundelik-background-image-main" src="/assets/v2/main-slides/kundelik/main-f8274192e6fe9f824becd0e66a556e14b723e97319cc6d21a574b0aa84bcee91.png" />
+  </div>
 </div>
-                        </div>
-                        <div class="footer__column_25 footer__join">
-                            
-<a href="https://emaktabru.netlify.app/join/role" title="&#x41F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x41E;&#x41E;" class="button button_green button_full-width    " onclick="" 
-   style="cursor: pointer"
-   data-category="" data-action="" data-target="">
-    &#x41F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x41E;&#x41E;
-</a>
-                        </div>
-                </div>
-            </div>
-    </div>
-    <div class="footer__copyright">
-        <div class="footer__copyright-content">
-            
-            <div class="footer__copyright-item">
-                <div class="footer__copyright__terms">
 
-                        <a href="https://uz.stg.dnevnik.ru/agreements/terms" class="footer__copyright__terms__link">&#x41F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x43A;&#x43E;&#x435; &#x441;&#x43E;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x435;</a>
-                </div>
-            </div>
-            <div class="footer__copyright-item">
-                <div class="footer__copyright__label"></div>
-            </div>
+          <div class="glide__slide main-slide-template" style="background: #EE4544;">
+  <div class="main-slide-template-content">
+    <div class="main-slide-template-content-title" style="color: white">  
+      Сервис для цифровизации школьного питания
+    </div>
+    <div class="main-slide-template-content-description" style="color: white">
+      <ul>
+  <li>Публикация и просмотр школьного меню</li>
+  <li>Быстрое и легкое формирование отчета по питанию</li>
+  <li>Анализ качества питания через отзывы школьников и родителей</li>
+</ul>
+
+    </div>
+    <a target="_blank" class="main-slide-template-content-action" href="/kz/v2/main_slide/22">Перейти</a>
+  </div>
+  <div class="main-slide-template-background-image">
+    <img class="main-slide-template-background-image-main" src="/assets/v2/main-slides/mektep_menu-20d7c6f085ea1edbbb528622de1db7b37b2a3e36bb1e5d4c04e61df4c18141d1.png" />
+  </div>
+</div>
+          <div class="glide__slide main-slide-template" style="background: #0080CC;">
+  <div class="main-slide-template-content">
+    <div class="main-slide-template-content-title" style="color: white">  
+      Программа лояльности от Kundelik
+    </div>
+    <div class="main-slide-template-content-description" style="color: white">
+      для учителей, учеников и их родителей
+    </div>
+    <a target="_blank" class="main-slide-template-content-action" href="/kz/v2/main_slide/16">Перейти</a>
+  </div>
+  <div class="main-slide-template-background-image">
+    <img class="main-slide-template-background-image-main" src="/assets/v2/main-slides/kbonus-5f7d28f025ca512a154e39bc72b686dbdda5ac958c5dc0b8eba1a4c51ef90abf.png" />
+  </div>
+</div>
+
+      </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">"></button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+            <button class="glide__bullet" data-glide-dir="=3"></button>
+            <button class="glide__bullet" data-glide-dir="=4"></button>
         </div>
     </div>
+  </div>
+</section>
 
+<section class="categories" id="categories">
+  <div class="container">
+    <div class="categories-list">
+        <a class="categories-list-item" href="/ru/v2/categories/1">
+          <div class="categories-list-item-icon">
+            <img src="/store/category/1/icon/e98ffcb271e7b20589b74f5a45075723.png" />
+          </div>
+          <div class="categories-list-item-name">Совместные проекты </div>
+</a>        <a class="categories-list-item" href="/ru/v2/categories/3">
+          <div class="categories-list-item-icon">
+            <img src="/store/category/3/icon/87e7b6fdd47251ebdaed8ee55e920778.png" />
+          </div>
+          <div class="categories-list-item-name">Курсы и вебинары</div>
+</a>        <a class="categories-list-item" href="/ru/v2/categories/6">
+          <div class="categories-list-item-icon">
+            <img src="/store/category/6/icon/50c3664cdc8ef75ef7def067f70abf6d.png" />
+          </div>
+          <div class="categories-list-item-name">Лаборатория ИИ</div>
+</a>        <a class="categories-list-item" href="/ru/v2/categories/8">
+          <div class="categories-list-item-icon">
+            <img src="/store/category/8/icon/8bc87d950c1525381bc2f8de6650d84b.png" />
+          </div>
+          <div class="categories-list-item-name">Конкурсы</div>
+</a>    </div>
+  </div>
+</section>
+
+<section class="content-items-four-blocks">
+  <div class="container">
+    <div class="content-items-four-blocks-list">
+      <div class="glide" data-controller="glide" data-glide-per-view-value=4
+  data-glide-autoplay-value=6000 data-glide-break-points-value=>
+  <div class="glide__track" data-glide-el="track">
+    <div class="glide__slides">
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/615/poster_ru/81defcf4b51071e5e6f3057b674ed3af.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Накопительный вклад «AQYL» от Отбасы банка</h5>
+    <p class="card-text">Уникальная возможность обеспечить 🎓 будущее образование ваших детей.</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        1118
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 24.12.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/441">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/619/poster_ru/25a57b7d9b8a1d0d917237c28b8ca9dd.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Методические рекомендации для планирования внеурочной деятельности по развитию предпринимательски...</h5>
+      <div class='content-item-content-sticker new'>
+         Новинка!
+      </div>
+    <p class="card-text"></p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        161
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 19.03.2025
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/445">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/618/poster_ru/140e0998e384d230d98c78db6dfc9f25.jpg" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Mektepmenu</h5>
+    <p class="card-text">Соответствие Приказам №456 и №598, автоматизированный процесс, готовая отчетность и удобство в использовании.</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        381
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 07.03.2025
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/444">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/616/poster_ru/39464cf8ed55c34255868147876b99b6.jpg" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Программа поддержки одаренных казахстанских детей - Zhas Qyran</h5>
+    <p class="card-text">Прием заявок с 1-го по 20-е число каждого месяца </p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        11645
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 15.01.2025
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/442">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/617/poster_ru/be42874a637365540bd19d84dcb8fa32.jpg" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Акция от ALSER.kz и Kundelik</h5>
+      <div class='content-item-content-sticker new'>
+         Новинка!
+      </div>
+    <p class="card-text">Для 9-11 классов, родителей и учителей </p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        1323
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 31.01.2025
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/443">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/585/poster_ru/b9e6a59bab3edf0d5df17ea9a201641d.jpg" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Открытое письмо</h5>
+    <p class="card-text">Президенту Республики Казахстан Касым-Жомарту Кемелевичу Токаеву от Консорциума казахстанских EdTech компаний
+</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        1120
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 12.09.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/431">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/575/poster_ru/8a28cad838308f6c553b02b941be9597.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Kundelik + Kcell</h5>
+    <p class="card-text">Подключайся к тарифу ИМБА 
+Получай бонусы за оценки </p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        13035
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 19.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/421">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/590/poster_ru/9d00fdbea57ef7ddc2166c080950ba85.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Kundelik AI Lab</h5>
+    <p class="card-text">Искусственный интеллект в образовании - инструменты от Kundelik</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        2251
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 04.11.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/434">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/573/poster_ru/241139ed2c302dc97d9afc61e3155416.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Kundelik + Kari</h5>
+    <p class="card-text">Промокод на 5000, 7000 или 10 000 бонусов Kari.</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        2044
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 19.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/419">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/564/poster_ru/067a3302c22de0139f4fe78eaed00214.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Программа лояльности Күнделiк Bonus</h5>
+    <p class="card-text">Участники программы смогут оплачивать свои покупки накопленными бонусами в магазинах наших партнеров.</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        1600
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 02.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/411">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/552/poster_ru/11bb3c56b53f3b6ca87dbb4710e0d936.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Карта школ</h5>
+    <p class="card-text">Перечень образовательных школ на карте Казахстана</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        202
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 30.07.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/c/552">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/565/poster_ru/fbdc2249f2b5692a980418e464018d93.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Система образования Казахстана</h5>
+    <p class="card-text">Образование в Казахстане динамично развивается, акцентируя внимание на инновациях и международных стандартах.</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        1041
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 02.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/c/565">Перейти</a>
+  </div>
+</div>
+        </div>
+    </div>
+  </div>
+  <div class="glide__bullets" data-glide-el="controls[nav]">
+      <button class="glide__bullet" data-glide-dir="=1"></button>
+      <button class="glide__bullet" data-glide-dir="=2"></button>
+      <button class="glide__bullet" data-glide-dir="=3"></button>
+      <button class="glide__bullet" data-glide-dir="=4"></button>
+      <button class="glide__bullet" data-glide-dir="=5"></button>
+      <button class="glide__bullet" data-glide-dir="=6"></button>
+      <button class="glide__bullet" data-glide-dir="=7"></button>
+      <button class="glide__bullet" data-glide-dir="=8"></button>
+      <button class="glide__bullet" data-glide-dir="=9"></button>
+      <button class="glide__bullet" data-glide-dir="=10"></button>
+      <button class="glide__bullet" data-glide-dir="=11"></button>
+      <button class="glide__bullet" data-glide-dir="=12"></button>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"></button>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+  <section class="content-items-categories">
+    <div class="container">
+      <div class="content-items-categories-list" >
+          <div class="content-items-categories-list-category">
+            <div class="content-items-categories-list-category-header">
+              <div class="content-items-categories-list-category-header-title">
+                <h2>Совместные проекты </h2>
+              </div>
+              <a class="content-items-categories-list-category-header-link" href="/ru/v2/categories/1">Все Совместные проекты </a>
+            </div>
+            <div class="content-items-categories-category-items">
+              <div class="glide" data-controller="glide" data-glide-per-view-value=4
+  data-glide-autoplay-value=6000 data-glide-break-points-value=>
+  <div class="glide__track" data-glide-el="track">
+    <div class="glide__slides">
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/619/poster_ru/25a57b7d9b8a1d0d917237c28b8ca9dd.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Методические рекомендации для планирования внеурочной деятельности по развитию предпринимательски...</h5>
+      <div class='content-item-content-sticker new'>
+         Новинка!
+      </div>
+    <p class="card-text"></p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        161
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 19.03.2025
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/445">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/566/poster_ru/17e77b1d669ea98f65cb1ad24263f1d0.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Kundelik + Halyk Bank</h5>
+    <p class="card-text">Для 5-11 классов </p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        3426
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 09.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/413">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/573/poster_ru/241139ed2c302dc97d9afc61e3155416.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Kundelik + Kari</h5>
+    <p class="card-text">Промокод на 5000, 7000 или 10 000 бонусов Kari.</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        2044
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 19.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/419">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/575/poster_ru/8a28cad838308f6c553b02b941be9597.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Kundelik + Kcell</h5>
+    <p class="card-text">Подключайся к тарифу ИМБА 
+Получай бонусы за оценки </p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        13035
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 19.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/421">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/617/poster_ru/be42874a637365540bd19d84dcb8fa32.jpg" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Акция от ALSER.kz и Kundelik</h5>
+      <div class='content-item-content-sticker new'>
+         Новинка!
+      </div>
+    <p class="card-text">Для 9-11 классов, родителей и учителей </p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        1323
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 31.01.2025
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/443">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/568/poster_ru/4912b5ea29f47c0558e67669796c2845.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Kundelik + Tele2</h5>
+    <p class="card-text">Обмен бонусов на ГБ для абонентов Tele2</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        1680
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 09.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/415">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/618/poster_ru/140e0998e384d230d98c78db6dfc9f25.jpg" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Mektepmenu</h5>
+    <p class="card-text">Соответствие Приказам №456 и №598, автоматизированный процесс, готовая отчетность и удобство в использовании.</p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        381
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 07.03.2025
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/444">Перейти</a>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100">
+  <img class="card-img-top" onerror="this.src=&#39;https://emaktabru.netlify.app/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/contentitem/567/poster_ru/50f0a317607bd21221715c51191b7a93.png" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title"> Kundelik + Sulpak</h5>
+    <p class="card-text">Для учеников 9-11 классов, их родителей и педагогов </p>
+    <div class="content-item-content-meta mt-auto">
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/eye-87cda5972fca176a64f002647e7ed92dcb5f6770b5d6663bb4cdd2119aee3b6c.svg" />
+        1639
+      </div>
+      <div class="content-item-content-meta-item">
+        <img src="/assets/v2/calendar-0ddfc568f3e4e8409b899fdd49110149d07273fff4a8fe0a5ceba5f01edf6881.svg" /> 09.08.2024
+      </div>
+    </div>
+    <a class="content-item-content-action justify-self-end" target="" href="/ru/v2/articles/414">Перейти</a>
+  </div>
+</div>
+        </div>
+    </div>
+  </div>
+  <div class="glide__bullets" data-glide-el="controls[nav]">
+      <button class="glide__bullet" data-glide-dir="=1"></button>
+      <button class="glide__bullet" data-glide-dir="=2"></button>
+      <button class="glide__bullet" data-glide-dir="=3"></button>
+      <button class="glide__bullet" data-glide-dir="=4"></button>
+      <button class="glide__bullet" data-glide-dir="=5"></button>
+      <button class="glide__bullet" data-glide-dir="=6"></button>
+      <button class="glide__bullet" data-glide-dir="=7"></button>
+      <button class="glide__bullet" data-glide-dir="=8"></button>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"></button>
+  </div>
+</div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="ecosystem" id="ecosystem">
+  <div class="container">
+    <h1>Экосистема Kundelik.kz</h1>
+    <div class="ecosystem-blocks">
+      <div class="ecosystem-blocks-block">
+        <div class="ecosystem-blocks-block-text for-students">
+          <h2>Для учащихся:</h2>
+          <ul> <li>Школьный дневник и оценки</li> <li>Темы и домашние задания</li> <li>Расписание уроков</li> <li>Школьное питание</li> <li>Онлайн уроки и тренажеры</li> <li>Курсы для учеников</li> <li>Спортивные секции и музыкальные кружки</li> <li>Мотивационная программа K.Bonus club</li> <li>Подготовка к ЕНТ</li> <li>Отслеживание местоположения «Күнделік.Трекер»</li> <li>Мобильное приложение «Күнделік.Мектеп»</li> <li>Аналитика оценок и успеваемости в «Күнделік.Analytics»</li> </ul>
+        </div>
+        <div class="ecosystem-blocks-block-image">
+          <img src="/assets/v2/sections/ecosystem/for_students-e521856e9fd851519cf0f4147e246d752f272502b494e62ea52db3172005d1d6.png" />
+        </div>
+      </div>
+      <div class="ecosystem-blocks-block">
+        <div class="ecosystem-blocks-block-text for-parents reverse">
+          <h2>Для родителей:</h2>
+          <ul> <li>Дневник и оценки ребенка</li> <li>Домашние задания</li> <li>Расписание уроков</li> <li>Онлайн-тренажеры для детей</li> <li>Отслеживание местоположения ребенка</li> <li>Школьное питание</li> <li>Дополнительное образование</li> <li>Мотивационная программа для учеников K.Bonus club</li> <li>Подготовка к ЕНТ</li> <li>Мобильное приложение «Күнделік.Мектеп»</li> <li>Аналитика оценок и успеваемости в «Күнделік.Analytics»</li> <li>Круглосуточный доступ к дневнику ребенка</li> </ul>
+        </div>
+        <div class="ecosystem-blocks-block-image reverse">
+          <img src="/assets/v2/sections/ecosystem/for_parents-7fdec0aebfc27d6e90d67251e3b1fb12d6e121dd8fd39d07dde55952fd7424c7.png" />
+        </div>
+      </div>
+      <div class="ecosystem-blocks-block">
+        <div class="ecosystem-blocks-block-text for-teachers">
+          <h2>Для педагогов:</h2>
+          <ul> <li>Электронный журнал</li> <li>Цифровые образовательные сервисы</li> <li>Качество знаний и гибкие отчеты</li> <li>Курсы для педагогов</li> <li>Мотивационная программа K.Bonus club</li> <li>Формы документов строгой отчетности</li> <li>Своевременная поддержка педагогов</li> <li>Мониторинг активности</li> <li>Готовые уроки и тесты Kundelik Lessons</li> <li>Видеоуроки и дистанционное обучение</li> <li>Школьные учебники в цифровом формате</li> <li>Подписание документов ЭЦП</li> </ul>
+        </div>
+        <div class="ecosystem-blocks-block-image">
+          <img src="/assets/v2/sections/ecosystem/for_teachers-d0cfbd7244f886f22b6fa210e71e86e0cfac008c0f5a9db7b2a622bdc57821cd.png" />
+        </div>
+      </div>
+      <div class="ecosystem-blocks-block">
+        <div class="ecosystem-blocks-block-text for-partners reverse">
+          <h2>Управляющим организациям:</h2>
+          <ul> <li>Контроль ведения электронного журнала школами</li> <li>Отчет качества знаний каждую четверть</li> <li>Уровень успеваемости в области и районе</li> <li>Любой отчет по школе в любое время</li> <li>Формы документов строгой отчетности школ</li> <li>Сбор и аналитика необходимых данных</li> <li>Создание поручений</li> <li>Мониторинг активности</li> <li>Готовые уроки и тесты Kundelik Lessons</li> <li>Видеоуроки и дистанционное обучение</li> <li>Школьные учебники в цифровом формате</li> <li>Подписание документов ЭЦП</li> </ul>
+        </div>
+        <div class="ecosystem-blocks-block-image reverse">
+          <img src="/assets/v2/sections/ecosystem/for_partners-29e4c6bb81615321c31a5f1d3a34e4b1f9921efed55491b19fa7965740133852.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about grey-background" id="about">
+  <div class="container">
+    <h1><span style="color: #2F80ED">Kundelik.kz</span> - это...</h1>
+    <div class="about-static">
+      <div class="about-static-element">
+        <div class="about-static-element-number">
+          8
+        </div>
+        <div class="about-static-element-text">
+          лет на рынке
+        </div>
+      </div>
+      <div class="about-static-element">
+        <div class="about-static-element-number">
+          3.5 млн
+        </div>
+        <div class="about-static-element-text">
+          учеников
+        </div>
+      </div>
+      <div class="about-static-element">
+        <div class="about-static-element-number">
+          630 млн
+        </div>
+        <div class="about-static-element-text">
+          уроков в расписании
+        </div>
+      </div>
+      <div class="about-static-element">
+        <div class="about-static-element-number">
+          15000
+        </div>
+        <div class="about-static-element-text">
+          онлайн-уроков
+        </div>
+      </div>
+    </div>
+    <div class="about-info">
+      <div class="about-info-text">
+        <h2>О компании</h2>
+        <p>ТОО «Kүнделік (Kundelik)» – казахстанская ИТ-компания, разработчик единой цифровой образовательной экосистемы для учителей, учеников, родителей, администрации образовательных организаций, а также представителей органов Управления образования и Министерства Просвещения Республики Казахстан.</p><p>Автоматизированная образовательная информационная система «Күнделік», которая объединяет возможности электронного документооборота для образовательных организаций и инструменты социального сетевого взаимодействия между всеми участниками образовательного процесса: педагогами, родителями и учениками.</p>
+      </div>
+      <div class="about-info-image">
+        <!-- Set by css --> 
+      </div>
+    </div>
+  </div>
+</section>
+<section class="partners" id="partners">
+  <div class="container">
+    <h1>Наши партнеры</h1>
+    <div class="partners-grid">
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_1-f5d0c05a4174be2318ce3d5c8742482b57966318a6da21596d9c26f75bd7b4fd.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_2-f68ca7872be8afd85dd1881fd1824e7fbbe26c68a6fbb9fc60d65e86fc5067c0.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_3-1c3d4f3d97a7b42806434fffb701a0ac1fad443b9ca371be7a5a30e78be9954a.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_4-9931a5d2488b24463008083c426f5494b1801542bce342f4d6d244421067daa1.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_5-01e9d3a9eafe3705e9dc50af32e7f7d1f2aad5fd2a3b26c760d0f984e0538dac.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_6-e4f0c83d942abebf6b3759e29147df15e66d51c238751b4c2447449a6cd15cbb.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_7-c1889922b67a7b24c5c9b823a4e3d0e053214099c21770e375d736d36959f405.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_8-66e929c0d4db682c14b3fa9dd627c8137cc0a2e387f431f2b18095c5d7040263.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_9-d9f0330e75eec2c4e48dd6dcee6e91f122311a939118c1187a0fa744e30a63ca.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_10-4d6b373a9e6eb473e1719d4eadb6a07dd701f944a10d3aa250e1601adbbb4027.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_11-6120289ff67a0a0bd0f1bd483ecff597078457a05ed65a911003e8eb0fedf251.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_12-c103dbe9cec5eac75a6c6eb69993c28bc79a45c6f6fa54e6cf6472ca3d3cbebf.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_13-f7438f6d43cb1406025872eb1d7b1921fe5eefdc8795439f01484acaf757aa48.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_14-e7bb065b57b085405afad3210df19111666be8b4f108c13e4feab79d71cea77a.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_15-73ad65259b2edb933c35c954a023c36f7d922e88c5f8ff8f561272168c749345.png" />
+        <img class="partners-grid-image" src="/assets/v2/sections/partners/partner_16-39a170229dd948c792dfed39b5cd3024626ba501bd7c2011acc8b1f70f4135d8.png" />
+    </div>
+  </div>
+</section>
+  <section class="reviews grey-background" id="reviews">
+    <div class="container">
+      <h1>Отзывы о системе Kundelik.kz</h1>
+      <div class="glide" data-controller="glide" data-glide-per-view-value=4
+  data-glide-autoplay-value=5000 data-glide-break-points-value=>
+  <div class="glide__track" data-glide-el="track">
+    <div class="glide__slides">
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Касимова Карлыгаш Файзулловна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/1/avatar/d5092d1edc5704a19bbbcc2abf08990c.jpg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Касимова Карлыгаш Файзулловна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Педагог русского языка и литературы города Павлодар</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;өте жақсы, ыңғайлы, көп көмек көрсетеді, озпға дайындалдым жақсы&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Жанузакова Раушан" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/2/avatar/811fddccc2cccc52501c97ab9ede83ad.jpg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Жанузакова Раушан</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Астана қаласы, Нұра ауданы, Бином им. Ыбырай Алтынсарина</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Тамаша&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Әбдірауықова Мәншүк Абатбекқызы " loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/3/avatar/90f72c7e702f73dc8c9f1918ccfc8271.jpg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Әбдірауықова Мәншүк Абатбекқызы </h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Қызылорда қаласының мұғалімі</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Өте ыңғайлы жұмыс жасауға&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Аубакова Алмагуль " loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/4/avatar/3807b707e7532416efaa784705ea7522.jpg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Аубакова Алмагуль </h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">БҚО Тасқала ауданы Достық МББК</h6>
+    <p class="card-text expandable" data-action="click->expand#show" data-expand-target="review">&quot;Бұл жүйе оқушылардың үлгерімін бақылауға, сабақ кестесі мен үй тапсырмаларын көруге, мұғалімдермен және ата-аналармен байланыс орнатуға мүмкіндік береді. Мұндай платформалар білім беру процесін заманауи және тиімді етуге бағытталған.Ата-аналар мен оқушылар кез келген уақытта интернет арқылы өз есептеріне кіре алады.Қағаз журнал мен күнделіктердің қажеттілігін азайтады.Мұғалімдер мен ата-аналар арасында ақпарат алмасу жылдам жүреді.Ата-аналар баласының үлгерімі мен тәртібін тұрақты бақылап отыра алады.Мұғалімдерге бағалау және есеп беру жұмыстарын оңайлатуға көмектеседі.&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Рашитова Дияна Елеуовна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/6/avatar/fc722e90bc47bf42176b46823942b2c2.jpeg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Рашитова Дияна Елеуовна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Астана қаласы Ә.Бөкейхан атындағы №76 мектеп-лицейі</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Жұмыс жасауға ыңғайлы, тиімді. Онлайн оқыту кезіндегі мүмкіндігін кеңейту&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Латипова Эльмира Куанышовна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/8/avatar/d84df15e946f9263ebfaecc4674253b4.jpeg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Латипова Эльмира Куанышовна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Астана</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Система очень работает слажено, все работает как положено. Мы как активные пользователи данной системе очень, этому рады. Отчетность можно сдать в 2 минуты. Благодарю&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Федосова Лада Викторовна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/assets/placeholders/author-avatar-placeholder-71fa157df12bdd86899bfb744554106fb52ed1c3d9decfe3da454215a263a36c.png" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Федосова Лада Викторовна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">г. Алматы, КГУ ОШ № 85</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Отличная программа, нравятся ее функции прикрепления файлов, хорошо, что появился чат.&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Назирова Эльмира Рахметовна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/10/avatar/998abb34379528caa9aaad90ec172a91.jpeg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Назирова Эльмира Рахметовна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Атырау оюлысы, Атырау қаласы, М.Отаралиев атындағы орта мектеп</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Бұл портал өте тиімді әрі пайдалы тұстары да бар. Электронды нұсқамен толтырып, жүктеп отырған едәуір жеңіл әрі ұтымды.&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Бекжанова Жулдызай Жиенбаевна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/assets/placeholders/author-avatar-placeholder-71fa157df12bdd86899bfb744554106fb52ed1c3d9decfe3da454215a263a36c.png" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Бекжанова Жулдызай Жиенбаевна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Кызылординская область Кармакчинский район СШ№272</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Хорошо продуманная и очень удобная в работе система. Всё устраивает.&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Сабирова Гулмира Туркменбаевна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/12/avatar/b621f713104d619195171e99d736a475.jpeg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Сабирова Гулмира Туркменбаевна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">г.Алматы, Наурызбайский р-н Школа-лицей № 207</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Очень удобная система, есть обратная связь с родителями и учителями.&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Тайлакова БакытгульКожабергеновна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/13/avatar/c442bc170b79b23cfcef79a55466e283.jpg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Тайлакова БакытгульКожабергеновна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Кызылординская область Аральский район пос Жаксыкылыш сш 19</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Очень удобная система как для учителя,так  и для родителей, которые отслеживают оценки своих детей. Она дает бонусы учащимся, получившие 10 баллов, что мотивирует их к активности на уроках.&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Ибраимова Ляйля Касымжановна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/14/avatar/eb1edf7b80318de683b8d202b43eab3d.jpg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Ибраимова Ляйля Касымжановна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">ОШ №32 г. Алматы</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;Хороший, удобный сайт.&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+        <div class="glide__slide">
+          <div class="card h-100 text-center review" data-controller='expand'>
+  <div class="card-img-top">
+    <img alt="Жамбулова Дина Жамбуловна" loading="lazy" onerror="this.src=&#39;https://portal.kundelik.kz/assets/ad_slider_item_thumbnail_placeholder-4d8326a3328063adb7a9844ad050a7964c921c0d537f01363f93aa094dc81faf.png&#39;" src="/store/review/15/avatar/e6b27c4175372650a58674039df30d77.jpg" />
+  </div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">Жамбулова Дина Жамбуловна</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">БҚО Жанақала ауданы.Х.Нұрымғалиев ЖОББМ</h6>
+    <p class="card-text " data-action="click->expand#show" data-expand-target="review">&quot;kundelik.kz өте ыңғайлы платформа деп есептеймін.Мұнда өткізілген сабақтарың, түгелдей жарияланып тұрады.Коментарии жазып, ҚМЖ ны іліп қоямыз..
+Ата-аналар тарапынан да, артық сөз жоқ, баланың бағаларын қарап отырады.
+Рахмет, ұстаздың жұмысын біраз жеңілдеткен платформа болды.&quot;</p>
+    <div class="expanded hidden" data-action="click->expand#hide" data-expand-target="hideButton"></div>
+  </div>
+</div>
+        </div>
+    </div>
+  </div>
+  <div class="glide__bullets" data-glide-el="controls[nav]">
+      <button class="glide__bullet" data-glide-dir="=1"></button>
+      <button class="glide__bullet" data-glide-dir="=2"></button>
+      <button class="glide__bullet" data-glide-dir="=3"></button>
+      <button class="glide__bullet" data-glide-dir="=4"></button>
+      <button class="glide__bullet" data-glide-dir="=5"></button>
+      <button class="glide__bullet" data-glide-dir="=6"></button>
+      <button class="glide__bullet" data-glide-dir="=7"></button>
+      <button class="glide__bullet" data-glide-dir="=8"></button>
+      <button class="glide__bullet" data-glide-dir="=9"></button>
+      <button class="glide__bullet" data-glide-dir="=10"></button>
+      <button class="glide__bullet" data-glide-dir="=11"></button>
+      <button class="glide__bullet" data-glide-dir="=12"></button>
+      <button class="glide__bullet" data-glide-dir="=13"></button>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"></button>
+  </div>
+</div>
+
+  </section>
+
+
+    </div>
+    <footer>
+  <div class="container">
+    <div class="list">
+      <div class="list-item">
+        <h3 class="list-item-category-title">Компания</h3>
+        <div class="list-item-category-links">
+          <a class="list-item-category-links-link" target="_blank" href="/ru/v2#about">О нас</a>
+          <a class="list-item-category-links-link" target="_blank" href="/ru/v2/mon_news">Новости МП РК</a>
+        </div>
+      </div>
+      <div class="list-item">
+        <h3 class="list-item-category-title">Возможности</h3>
+        <div class="list-item-category-links">
+          <a class="list-item-category-links-link" target="_blank" href="https://emaktabru.netlify.app/features#/teachers?locale=ru-ru">Преподавателям</a>
+          <a class="list-item-category-links-link" target="_blank" href="https://emaktabru.netlify.app/features#/parents?locale=ru-ru">Родителям</a>
+          <a class="list-item-category-links-link" target="_blank" href="https://emaktabru.netlify.app/features#/students?locale=ru-ru">Учащимся</a>
+          <a class="list-item-category-links-link" target="_blank" href="https://emaktabru.netlify.app/features#/governments?locale=ru-ru">Гос.органам</a>
+        </div>
+      </div>
+      <div class="list-item">
+        <h3 class="list-item-category-title">Партнерам</h3>
+         <div class="list-item-category-links">
+          <a class="list-item-category-links-link" target="_blank" href="https://emaktabru.netlify.app/forpartners?locale=ru-ru">Партнёрские программы</a>
+        </div>
+      </div>
+      <div class="list-item">
+        <h3 class="list-item-category-title">Контакты</h3>
+         <div class="list-item-category-links">
+          <a class="list-item-category-links-link" target="_blank" href="https://wa.me/message/VR3JDJCD5SEFG1">+7 (700) 313-18-32 (WhatsApp)</a>
+          <a class="list-item-category-links-link text-transform-none" href="mailto:team@kundelik.kz">team@kundelik.kz</a>
+          <a class="list-item-category-links-link" target="_blank" href="https://kundelik.zendesk.com/hc/ru?locale=ru-ru">Портал службы поддержки</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="container">
+    <div class="underline-section">
+      <div class='underline-section-info'>
+        <a class="underline-section-info-logo" href="/ru/v2">
+          <img src="/assets/v2/logo-white-a299d468ebd107dd15fd542972501ba75eb5093e11fc84a753ef5dc260758d0c.svg" />
+</a>        <a class="underline-section-info-link" target="_blank" href="https://emaktabru.netlify.app/agreements/terms?locale=ru-ru">Пользовательское соглашение</a>
+        <div class="underline-section-info-social-links">
+          <a class="underline-section-info-social-links-link" target="_blank" href="https://www.instagram.com/kundelikkz/">
+            <img src="/assets/v2/footer/instagram-b1aa09d82e07008c82055442aad12cd5bb53f37d92c3dfa7a368847e96a75851.svg" />
+</a>          <a class="underline-section-info-social-links-link" target="_blank" href="https://wa.me/message/VR3JDJCD5SEFG1">
+            <img src="/assets/v2/footer/whatsapp-e1e94c1556e1188fc366f4bb085ac4b5991a03d2e9676c7ed08a50b3819f62d7.svg" />
+</a>          <a class="underline-section-info-social-links-link" target="_blank" href="https://www.tiktok.com/@kundelik.life">
+            <img src="/assets/v2/footer/tiktok-45e0723ae467e8feb67f50597e9de7a48cbaaaf2eeb445c813a9e1fdbda24068.svg" />
+</a>          <a class="underline-section-info-social-links-link" target="_blank" href="https://www.youtube.com/channel/UCtPa-Vpfm8vn_ZRl7dRA6ww">
+            <img src="/assets/v2/footer/youtube-c5e8b2e80c0b31131865a7fffd35f57781c7d411ffc26e1a305279c3c04ac61a.svg" />
+</a>          <a class="underline-section-info-social-links-link" target="_blank" href="https://www.facebook.com/kundelik/">
+            <img src="/assets/v2/footer/facebook-40da11a9f7415b1dcbc764b1fdefc7852a43376fa6713f1ff0172a3df1d5205f.svg" />
+</a>        </div>
+      </div>
+      <div class="underline-section-last-line">
+        <div class="underline-section-last-line-copy-right">
+          &copy; 2016–2025 ТОО «Kүнделік (Kundelik)»
+        </div>
+        <div class="underline-section-last-line-old-version">
+          <a class="switch-to-v1-link" href="/ru/switch_to_v1">Вернуться к старой версии сайта</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
-<script>require(['Footer/Footer'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('null')); } });</script>
-
-    
-<script type="text/javascript">
-    require(['yandexMetrika/yandexMetrikaCounter']);
-</script>
-
-    <script type="text/javascript">
-        require(['analytics/commonYaMetrika']);
-    </script>
-
-<noscript>
-    <div>
-            <img src="//mc.yandex.ru/watch/71764096" style="position: absolute; left: -9999px;" alt="" />
-    </div>
-</noscript>
-        <script type="text/javascript">
-            require(['ab/ab'], function (ab) {
-                window.onload = function () {
-                    if (!window['yaCounter' + dnevnik.settings.yandexMetrikaId]) {
-                        console.debug('Yandex.Metrika not loaded!');
-                   }
-   
-                    ab.init({
-                        subdomain: '',
-                       group: 'groupA'
-                    });
-   
-                };
-            });
-        </script>
-    
-
-</body>
+    <input type="hidden" id="locale" value="ru" />
+  </body>
 </html>
